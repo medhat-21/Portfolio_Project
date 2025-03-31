@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'josfin sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: #171a1c;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: #ff274b;
+}
+nav{
+    padding-top: 2.8rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333538;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+    cursor: pointer;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.4s ease;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover{
+        color: #ff274b;
+        /* transform: scale(1.2); */
+    }
+}
+.subscribe{
+    background-color: #ff274b;
+    color: #ffffff;
+    padding: .81rem 1.87rem;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.4s ease;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;  
+    &:hover{
+        background-color:transparent;
+        color: #ff274b;
+        border: 2px solid #ff274b;  
+        /* filter: drop-shadow(0 0 1.5rem #ff274b);
+        transition: filter 0.4s ease; */
+        transform: scale(1.2);
+
+    }
+}
+h2{
+    
+    font-size:35.2px ;
+    letter-spacing:0.12rem;
+    /* cursor: pointer; */
+}
+.content{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding: 8%;
+}
+.container-texts{
+    position: relative;
+    bottom: 70px;
+}
+h1{
+    font-size:4.65rem;
+    margin: 1.7rem 0;
+}
+h3{
+    font-size:1.5rem;
+    margin-bottom: 3.5rem;
+}
+h4{
+    font-size:1.25rem;
+    letter-spacing: 0.12rem;
+}
+.btn{
+    background-color: #ff274b;
+    color: #ffffff;
+    padding: .81rem 1.87rem;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.4s ease;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;  
+    &:hover{
+        background-color:transparent;
+        color: #ff274b;
+        transform: scale(1.2);
+         /* transition: transform 0.4s ease;*/
+    }
+}
+.social{
+    margin-top: 3.5rem;
+    /* &:hover{
+        transform: scale(1.1);
+        transition: transform 0.4s ease;
+        cursor: pointer;
+        transition: transform 0.4s ease;
+        transition: filter 0.4s ease;
+        filter: drop-shadow(0 0 0.5rem #ff274b);
+        transition: filter 0.4s ease; */
+
+    /* } */
+}
+.social img{
+    margin-right: 2.5rem;
+    width: 3.5rem; 
+}
+    .social img:hover{
+        transform: scale(1.2);
+        transition: transform 0.4s ease;
+        cursor: pointer;
+        filter: drop-shadow(0 0 1.5rem #ff274b);
+        transition: filter 0.4s ease;
+}
